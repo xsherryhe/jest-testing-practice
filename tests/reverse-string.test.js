@@ -1,7 +1,7 @@
 import reverseString from '../src/reverse-string';
 
 describe('reverseString', () => {
-  it('reverses a string', () => {
+  it('reverses an input string', () => {
     const string = 'hamster';
     const reversedString = 'retsmah';
     expect(reverseString(string)).toBe(reversedString);
